@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
-def testFunc(a,b):
-	print("테스트 하자! Test!")
-	c = a+b
+def testFunc():
+	a = []
+	a.append(1)
+	a.append("a")
 	print("파이썬 테스트")
-	return c
+	return a
